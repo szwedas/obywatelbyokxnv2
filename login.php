@@ -14,8 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $username;
         header("Location: dashboard.php");
-        exit;
-    } else {
+        } else {
         header("Location: dashboard.php");
     }
 }
