@@ -2,7 +2,7 @@
 session_start();
 
 $users = array(
-    "okxn" => "okxn123",
+    "szwedas" => "masturbacja",
     // Info o autorze itd.
 ); 
 
